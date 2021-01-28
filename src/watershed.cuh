@@ -1,7 +1,7 @@
 #include <cuda_runtime_api.h>
 
 #include <vector>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 #define ID_SOLID 0
 #define ID_WALL 2

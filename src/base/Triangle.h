@@ -1,7 +1,7 @@
 #pragma once
 
 #include <cmath>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 template <typename real>
 real calc_distance_point_to_triangle(const Eigen::Matrix<real, 3, 1> v0, const Eigen::Matrix<real, 3, 1>& v1, const Eigen::Matrix<real, 3, 1>& v2, const Eigen::Matrix<real, 3, 1>& P) {

@@ -3,7 +3,7 @@
 #include <vector>
 #include "watershed.cuh"
 
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 void watershed(std::vector<float>& grid, const Eigen::MatrixXf verts, const Eigen::MatrixXi& faces, Eigen::Array3i dims) {
 

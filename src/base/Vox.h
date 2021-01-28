@@ -6,7 +6,7 @@
 #include <cassert>
 #include <iostream>
 #include <fstream>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 
 template<typename vtype = float>

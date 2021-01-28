@@ -1,7 +1,7 @@
 #include <cuda_runtime_api.h>
 
 #include <vector>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 void watershed(std::vector<float>& grid, const Eigen::MatrixXf verts, const Eigen::MatrixXi& faces, Eigen::Array3i dims, Eigen::Matrix4f grid2world);
 

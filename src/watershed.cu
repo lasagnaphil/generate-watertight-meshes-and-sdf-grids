@@ -4,7 +4,7 @@
 #include <vector>
 #include "watershed.cuh"
 
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 #define INDEX3(data, x, y, z, dims) (data[(z)*dims(1)*dims(0) + (y)*dims(0) + (x)])
 #define IS_IN_RANGE3(x, y, z) ((x) >= 0 && (x) < dims(0) && (y) >= 0 && (y) < dims(1) && (z) >= 0 && (z) < dims(2))
